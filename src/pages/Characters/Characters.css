@@ -1,0 +1,28 @@
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.character_link {
+    width:min-content;
+}
+
+.characters_map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.full_characters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}	
