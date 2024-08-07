@@ -5,9 +5,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .loading > img {
-    width: 80%;
-    max-width: 470px;
+    width: 100%;
+    max-width: 100rem;
 }

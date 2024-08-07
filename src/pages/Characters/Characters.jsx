@@ -28,8 +28,8 @@ const Characters = () => {
   return (
 
     <main id="characters">
+      <div class="full_characters"><h1>PERSONAJES DE STAR WARS</h1>
       {loading && <Loading />}
-      <div class="full_characters"><h1>PERSONAJES</h1>
         <div class="characters_map">{characters.map((character) => (
           <Link key={character._id} to={`/character/${character._id}`} className="character_link">
             <CharacterCard character={character} />

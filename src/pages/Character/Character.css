@@ -10,33 +10,30 @@
 }
 
 .character > div {
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    overflow: hidden;
+    width: 50%;
+    border-radius: 2rem;
+    overflow: visible;
     position: relative;
     z-index: 2;
 }
 
 .character > div > img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
+    border-radius: 2rem;
 }
 
 .character > p {
-    width: 50%;
+    width: 45%;
+    font-size: 1.5rem;
     text-align: center;
-    font-size: 25px;
 }
 
 .character > h2 {
-    font-size: 70px;
-    /* margin-top: -310px; */
+    width: 50%;
+    font-size: 3rem;
+    text-align: center;
     transition: all 0.5s;
-    /* margin-bottom: 300px; */
-}
 
-/* .character > div:hover + h2 {
-    margin-top: -430px;
-} */
+}
